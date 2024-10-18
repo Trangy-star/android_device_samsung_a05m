@@ -14,6 +14,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+RISING_MAINTAINER="Smiley9000"
+TARGET_ENABLE_BLUR := true
+RISING_CHIPSET="MediaTek G85"
+
+
 PRODUCT_DEVICE := a05m
 PRODUCT_NAME := lineage_a05m
 PRODUCT_BRAND := Samsung
