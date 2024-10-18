@@ -20,6 +20,13 @@ RISING_MAINTAINER="Smiley9000"
 TARGET_ENABLE_BLUR := true
 RISING_CHIPSET="MediaTek G85"
 
+WITH_GMS := true
+TARGET_CORE_GMS := true
+
+PRODUCT_PACKAGES += \
+    LatinIMEGooglePrebuilt \
+    AiWallpapers \
+    WallpaperEmojiPrebuilt 
 
 PRODUCT_DEVICE := a05m
 PRODUCT_NAME := lineage_a05m
