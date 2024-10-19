@@ -16,7 +16,7 @@ $(call inherit-product, device/samsung/a05m/device.mk)
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
-RISING_MAINTAINER="Smiley9000"
+RISING_MAINTAINER="Smiley_9000"
 TARGET_ENABLE_BLUR := true
 RISING_CHIPSET="MediaTek G85"
 
@@ -36,8 +36,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEVICE := a05m
 PRODUCT_NAME := lineage_a05m
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Samsung Galaxy A05
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := Galaxy A05
+PRODUCT_MANUFACTURER := Samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
