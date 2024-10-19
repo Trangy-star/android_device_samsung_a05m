@@ -27,7 +27,7 @@ TARGET_CORE_GMS := true
 PRODUCT_PACKAGES += \
     LatinIMEGooglePrebuilt \
     AiWallpapers \
-    WallpaperEmojiPrebuilt 
+    WallpaperEmojiPrebuilt \
     Photos \
     PrebuiltDeskClockGoogle \
     CalculatorGooglePrebuilt \
