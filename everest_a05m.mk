@@ -9,16 +9,25 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/everest/config/common_full_phone.mk)
 
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
 
 PRODUCT_DEVICE := a05m
-PRODUCT_NAME := lineage_a05m
+PRODUCT_NAME := everest_a05m
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Samsung Galaxy A05
+PRODUCT_MODEL := Galaxy A05
 PRODUCT_MANUFACTURER := samsung
+
+# Everest Maintainer Stuff
+EVEREST_MAINTAINER := Smiley_9000
+
+PRODUCT_SYSTEM_NAME := Galaxy A05
+PRODUCT_SYSTEM_DEVICE := Galaxy A05
+
+WITH_GAPPS := true
+PRODUCT_NO_CAMERA := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
@@ -27,5 +36,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := samsung/a05mxx/a05m:14/UP1A.231005.007/A055FXXS6CXI2:user/release-keys
 
-PRODUCT_SYSTEM_PROPERTY_OVERRIDES += \
-     ro.debuggable=0
