@@ -16,7 +16,7 @@ $(call inherit-product, device/samsung/a05m/device.mk)
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 RISING_MAINTAINER="Smiley_9000"
-TARGET_ENABLE_BLUR := true
+TARGET_ENABLE_BLUR := false
 RISING_CHIPSET="MediaTek G85"
 
 PRODUCT_NO_CAMERA := false
