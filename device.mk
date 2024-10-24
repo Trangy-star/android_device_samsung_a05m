@@ -69,7 +69,7 @@ PRODUCT_PACKAGES += \
     SystemUIOverlay_JDM_A05 
     
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-lineage \
     $(LOCAL_PATH)/overlay-derp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
