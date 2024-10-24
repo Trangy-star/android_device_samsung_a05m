@@ -9,16 +9,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
 
 PRODUCT_DEVICE := a05m
-PRODUCT_NAME := lineage_a05m
+PRODUCT_NAME := derp_a05m
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Galaxy A05
 PRODUCT_MANUFACTURER := samsung
+TARGET_USES_MINE_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
