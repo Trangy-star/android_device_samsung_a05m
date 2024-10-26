@@ -29,3 +29,6 @@ BUILD_FINGERPRINT := samsung/a05mxx/a05m:14/UP1A.231005.007/A055FXXS6CXI2:user/r
 
 #PRODUCT_SYSTEM_PROPERTY_OVERRIDES += \
 #     ro.debuggable=0
+
+WITH_GMS := true
+
