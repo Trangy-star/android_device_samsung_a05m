@@ -15,7 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/a05m/device.mk)
 
 # Inherit from wingcamera-samsung
-$(call inherit-product, vendor/samsung/wing-camera/wingcamera-samsung.mk)
+#$(call inherit-product, vendor/samsung/wing-camera/wingcamera-samsung.mk)
 
 PRODUCT_DEVICE := a05m
 PRODUCT_NAME := lineage_a05m
