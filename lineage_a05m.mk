@@ -24,12 +24,41 @@ PRODUCT_MODEL := Galaxy A05
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
-#PRODUCT_NO_CAMERA := true
 
-#PRODUCT_BUILD_PROP_OVERRIDES += \
-#    PRIVATE_BUILD_DESC="a05mxx-user 14 UP1A.231005.007 A055FXXS6CXI2 release-keys"
+# Lunch banner maintainer variable
+RISING_MAINTAINER="Smiley_9000"
 
-#BUILD_FINGERPRINT := samsung/a05mxx/a05m:14/UP1A.231005.007/A055FXXS6CXI2:user/release-keys
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="MediaTek G85" \
+    RisingMaintainer="Smiley_9000"
 
-#PRODUCT_SYSTEM_PROPERTY_OVERRIDES += \
-#     ro.debuggable=0
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := false
+
+# whether to ship aperture camera, default is false
+PRODUCT_NO_CAMERA := false
+
+
+# GMS build flags
+# ship with GMS packages, replaces default AOSP packages with Google manufactured packages.
+WITH_GMS := true
+
+# These flags needs WITH_GMS set to true
+# for more information about core GMS flags, please see vendor/gms/common/common-vendor.mk
+# ships core GMS components that are needed to run GMS environment
+TARGET_CORE_GMS := true
+
+# extra add-ons for core GMS builds
+# List of add-ons
+PRODUCT_PACKAGES += \
+  Photos \
+  LatinIMEGooglePrebuilt \
+  AiWallpapers \
+  WallpaperEmojiPrebuilt \
+  PrebuiltDeskClockGoogle \
+  CalculatorGooglePrebuilt \
+  CalendarGooglePrebuilt 
+
+
