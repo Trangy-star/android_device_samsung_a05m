@@ -10,6 +10,8 @@ DEVICE_PATH := device/samsung/a05m
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk) 
+
 
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
