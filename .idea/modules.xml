@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BesLoudness/BesLoudness.iml" filepath="$PROJECT_DIR$/BesLoudness/BesLoudness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InCallService/InCallService.iml" filepath="$PROJECT_DIR$/InCallService/InCallService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PowerOffAlarm/PowerOffAlarm.iml" filepath="$PROJECT_DIR$/PowerOffAlarm/PowerOffAlarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/android_device_samsung_a05m.iml" filepath="$PROJECT_DIR$/.idea/android_device_samsung_a05m.iml" />
+    </modules>
+  </component>
+</project>
