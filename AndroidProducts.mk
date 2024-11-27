@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a05m.mk
+    $(LOCAL_DIR)/omni_a05m.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a05m-user \
-    lineage_a05m-userdebug \
-    lineage_a05m-eng
+    omni_a05m-user \
+    omni_a05m-userdebug \
+    omni_a05m-eng
