@@ -12,15 +12,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from a05m device
-$(call inherit-product, device/samsung/a05m/device.mk)
+$(call inherit-product, device/samsung/a15/device.mk)
 
 # Inherit from wingcamera-samsung
 #$(call inherit-product, vendor/samsung/wing-camera/wingcamera-samsung.mk)
 
-PRODUCT_DEVICE := a05m
-PRODUCT_NAME := lineage_a05m
+PRODUCT_DEVICE := a15
+PRODUCT_NAME := lineage_a15
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Galaxy A05
+PRODUCT_MODEL := Galaxy A15
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
