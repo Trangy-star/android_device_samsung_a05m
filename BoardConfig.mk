@@ -105,7 +105,7 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 BOARD_SUPER_PARTITION_GROUPS := mediatek_dynamic_partitions
 BOARD_MEDIATEK_DYNAMIC_PARTITIONS_PARTITION_LIST := system odm system_ext vendor product
 BOARD_MEDIATEK_DYNAMIC_PARTITIONS_SIZE := 9126805504 # BOARD_SUPER_PARTITION_SIZE - 4MB
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/lmodroid/config/BoardConfigReservedSize.mk
  
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
