@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/banana/config/common.mk)
 
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
@@ -18,18 +18,21 @@ $(call inherit-product, device/samsung/a05m/device.mk)
 #$(call inherit-product, vendor/samsung/wing-camera/wingcamera-samsung.mk)
 
 PRODUCT_DEVICE := a05m
-PRODUCT_NAME := lineage_a05m
+PRODUCT_NAME := banana_a05m
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Galaxy A05
 PRODUCT_MANUFACTURER := samsung
+TARGET_ENABLE_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_EXCLUDE_MATLOG := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
-#PRODUCT_NO_CAMERA := true
 
-#PRODUCT_BUILD_PROP_OVERRIDES += \
-#    PRIVATE_BUILD_DESC="a05mxx-user 14 UP1A.231005.007 A055FXXS6CXI2 release-keys"
 
-#BUILD_FINGERPRINT := samsung/a05mxx/a05m:14/UP1A.231005.007/A055FXXS6CXI2:user/release-keys
+BUILD_FINGERPRINT := samsung/a05mxx/a05m:14/UP1A.231005.007/A055FXXS6CXI2:user/release-keys
 
-#PRODUCT_SYSTEM_PROPERTY_OVERRIDES += \
-#     ro.debuggable=0
+TARGET_GAPPS_ARCH := arm64
+# Gapps
+WITH_GAPPS := true
+# Official
+BANANA_MAINTAINER := KSSRAO
